@@ -42,10 +42,10 @@ function Navbar() {
         <a href="#home">Inicio</a>
         <a href="#produtos">Produtos</a>
         <a href="#sobre">Sobre</a>
-        <a href="#contato">Contato</a>
+        <a href="#acesso">Acesso</a>
       </nav>
 
-        <button className="shadow-lg bg-black flex itens-center gap-2 px-4 py-2 rounded text-white">
+        <button className="shadow-lg bg-black flex items-center gap-2 px-4 py-2 rounded text-white transition hover:scale-105 hover:bg-slate-900 hover:shadow-slate-300">
           <ShoppingCart size={22} />
           <span>Carrinho</span>
         </button>
